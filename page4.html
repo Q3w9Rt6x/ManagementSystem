@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+		<title>最終課題課題</title>
+	</head>
+	<body>
+        <h1>公欠届　提出</h1>
+
+        <table class="itiran">
+            <tbody>
+                <tr>
+                    <th>ID</th>
+                    <th>学科</th>
+                    <th>名前</th>
+                    <th>届け出種類</th>
+                    <th>日付</th>
+                    <th>編集</th>
+                    <th>削除</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><button><a href="">編集</a></button></td>
+                    <td><button><a href="">削除</a></button></td>
+                </tr>
+            </tbody>
+        </table>
+	</body>
+    <button><a href="index.html">TOPへもどる</a></button>
+    <footer>
+        <p>&copy; 2023 Shiori Ogura</p>
+    </footer>
+</html>
+
+
+
+
+
+
+@PostMapping(value = "send", params = "page1")
+	public String showPage1View() {
+		return "submit/page1";
+	}
+	
+	@PostMapping(value = "send", params = "page2")
+	public String showPage2View() {
+		return "submit/page2";
+	}
+	
+	@PostMapping(value = "send", params = "page3")
+	public String showPage3View() {
+		return "submit/page3";
+	}
+	
+	@PostMapping(value = "send", params = "page4")
+	public String showPage4View() {
+		return "submit/page4";
+	}

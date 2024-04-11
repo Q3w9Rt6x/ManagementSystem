@@ -1,0 +1,45 @@
+h1{
+    padding: 20px;
+    font-size: 50px;
+}
+
+button.index{
+    margin: 20px 50px 10px 20px;
+}
+
+a.btn--radius {
+   border-radius: 100vh;
+}
+a.btn{
+    width: 50px;
+}
+
+div.page1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+th{
+    margin: 20px 10px 20px 10px;
+}
+tr.page1{
+    text-align: center;
+}
+p.page1{
+    text-align: center;
+}
+p.time{
+    margin-right: 80px;
+    text-align: right;
+}
+input{
+    margin: 10px 5px 10px 5px;
+}
+table.itiran{
+    border-collapse:  collapse; 
+    margin: 5px 10px 5px 10px;
+}
+th,td {
+    border: solid 1px;  /* 枠線指定 */
+    padding: 10px;      /* 余白指定 */
+}

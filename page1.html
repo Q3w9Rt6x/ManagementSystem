@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+		<title>最終課題課題</title>
+	</head>
+	<body>
+        <h1>欠席・遅刻・早退届　提出</h1>
+        <form>
+            <label><input type="text" id="department" name="gakka">学科</label>
+            <label><input type="text" id="course" name="ko-su">コース</label>
+            <label><input type="text" id="year" name="nenn">年</label>
+            <label><input type="text" id="class" name="kumi">組</label>
+            <label>No.<input type="text" id="no" name="no"></label>
+            <p><label>氏名<input type="text" id="name" name="simei"></label></p>
+        </form>
+        <ul>
+            <div>
+                <li>該当日時
+                    <input type="date" id="date" name="該当日時" value="" />
+                    <div>
+                        <input type="checkbox" name="jikan" value="1">１時限
+                        <input type="checkbox" name="jikan" value="2">２時限
+                        <input type="checkbox" name="jikan" value="3">３時限
+                        <input type="checkbox" name="jikan" value="4">４時限
+                        <input type="checkbox" name="jikan" value="5">５時限
+                        <input type="checkbox" name="jikan" value="6">６時限
+                    </div>
+                </li>
+            </div>
+            <li>理由　<textarea id="message" name="message"></textarea></li>
+        </ul>
+        <p class="page1">上記の理由により、欠席・遅刻・早退いたします。</p>
+        <p class="time">令和　年　月　日</p>
+        <div class="page1">
+            <table>
+                <thead>
+                    <tr class="page1">
+                        <th width="100px" height="50px">連絡</th>
+                        <th width="100px" height="50px">担任</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="page1">
+                        <td width="100px" height="50px"><input type="radio" name="renraku" value="ari">有<input type="radio" name="renraku" value="nasi">無</td>
+                        <td width="100px" height="50px"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <button><a href="index.html">TOPへもどる</a></button>
+        <button><a href="page1conf.html">送信</a></button>
+	</body>
+    <footer>
+        <p>&copy; 2023 Shiori Ogura</p>
+    </footer>
+</html>
